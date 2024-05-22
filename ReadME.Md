@@ -52,3 +52,5 @@ Acknowledgments
 ## Support
 
 For any issues or questions, please open an issue on GitHub!
+
+![Alt](https://repobeats.axiom.co/api/embed/10c0d14de26381cb9df957e95b3686387b20d334.svg "Repobeats analytics image")
