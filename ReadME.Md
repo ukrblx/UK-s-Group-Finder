@@ -1,19 +1,25 @@
 # UK-s-Group-Finder
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE](LICENSE) file for details.
+# UK's Group Finder
 
 ## Description
-Uk's Group Finder is a Python script designed to help you find active and unowned Roblox groups using asynchronous requests and threading. It checks the status of groups on Roblox and reports hits to a specified webhook.
+UK's Group Finder is a powerful Python script designed to efficiently discover active and unowned Roblox groups. Leveraging asynchronous requests and threading, it rapidly checks the status of groups on Roblox and sends notifications to a specified webhook upon finding hits.
 
-## Features
-- Asynchronous group checking for faster performance
-- Threading to maximize utilization of resources
-- Webhook integration for reporting hits and errors
+## Development
+This project was developed using Python, specifically version 3.7 and above. It utilizes the asyncio library for asynchronous operations and aiohttp for handling HTTP requests asynchronously. Threading is implemented to maximize system resources and achieve optimal performance during group checking.
 
-## Requirements
+## Technologies Used
 - Python 3.7+
-- aiohttp library (`pip install aiohttp`)
-- dhooks library (`pip install dhooks`)
+- asyncio library
+- aiohttp library
+- dhooks library
+
+## Recommended Software
+To run UK's Group Finder smoothly, it is recommended to have the following software installed:
+- Python 3.7 or higher: Install from the official Python website (https://www.python.org/downloads/).
+- aiohttp library: Install using pip (pip install aiohttp).
+- dhooks library: Install using pip (pip install dhooks).
 
 ## Usage
 1. Clone this repository to your local machine.
@@ -22,10 +28,9 @@ Uk's Group Finder is a Python script designed to help you find active and unowne
    pip install aiohttp dhooks
 3. Set up a webhook URL to receive hit and error notifications. You can use services like Discord's Webhooks or create a custom webhook receiver.
 4. Open main.py in a text editor.
-5. Replace "YOUR_WEBHOOK_URL_HERE" with your actual webhook URL.
-6. Adjust the number of threads based on your system's capabilities and the desired performance.
-7. Run the script: python main.py
-
+5.    Replace "YOUR_WEBHOOK_URL_HERE" with your actual webhook URL.
+6.    Adjust the number of threads based on your system's capabilities and desired performance.
+7.    Run the script: python main.py
 
 ## Configuration
 
