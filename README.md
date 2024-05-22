@@ -3,7 +3,7 @@
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE](LICENSE) file for details.
 
 ## Description
-Aleks Group Finder is a Python script designed to help you find active and unowned Roblox groups using asynchronous requests and threading. It checks the status of groups on Roblox and reports hits to a specified webhook.
+Uk's Group Finder is a Python script designed to help you find active and unowned Roblox groups using asynchronous requests and threading. It checks the status of groups on Roblox and reports hits to a specified webhook.
 
 ## Features
 - Asynchronous group checking for faster performance
@@ -32,7 +32,7 @@ Aleks Group Finder is a Python script designed to help you find active and unown
     Replace "YOUR_WEBHOOK_URL_HERE" in the script with your actual webhook URL.
     Adjust the number of threads based on your system's capabilities and the desired performance.
 
-##License
+## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the LICENSE file for details.
 Disclaimer
