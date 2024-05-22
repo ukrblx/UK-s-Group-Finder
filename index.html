@@ -4,138 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Documentation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 5px;
-        }
-
-        code {
-            background-color: #f4f4f4;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-family: Consolas, monospace;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-
-        .button:hover {
-            background-color: #0056b3;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #666;
-        }
-    </style>
+    <title>UK's Group Finder</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-           ![UK-s-Group-Finder](https://socialify.git.ci/ukrblx/UK-s-Group-Finder/image?font=Jost&name=1&owner=1&theme=Dark)
+    <img src="https://socialify.git.ci/ukrblx/UK-s-Group-Finder/image?font=Jost&name=1&owner=1&theme=Dark" alt="UK-s-Group-Finder">
 
-# UK-s-Group-Finder
+    <h1>UK's Group Finder</h1>
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE](LICENSE) file for details.
+    <p>This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-## Description
-UK's Group Finder is a powerful Python script designed to efficiently discover active and unowned Roblox groups. Leveraging asynchronous requests and threading, it rapidly checks the status of groups on Roblox and sends notifications to a specified webhook upon finding hits.
+    <h2>Description</h2>
+    <p>UK's Group Finder is a powerful Python script designed to efficiently discover active and unowned Roblox groups. Leveraging asynchronous requests and threading, it rapidly checks the status of groups on Roblox and sends notifications to a specified webhook upon finding hits.</p>
 
-## Development
-This project was developed using Python, specifically version 3.7 and above. It utilizes the asyncio library for asynchronous operations and aiohttp for handling HTTP requests asynchronously. Threading is implemented to maximize system resources and achieve optimal performance during group checking.
+    <h2>Development</h2>
+    <p>This project was developed using Python, specifically version 3.7 and above. It utilizes the asyncio library for asynchronous operations and aiohttp for handling HTTP requests asynchronously. Threading is implemented to maximize system resources and achieve optimal performance during group checking.</p>
 
-## Technologies Used
-- Python 3.7+
-- asyncio library
-- aiohttp library
-- dhooks library
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>Python 3.7+</li>
+        <li>asyncio library</li>
+        <li>aiohttp library</li>
+        <li>dhooks library</li>
+    </ul>
 
-## Recommended Software
-To run UK's Group Finder smoothly, it is recommended to have the following software installed:
-- Python 3.7 or higher: Install from the official Python website (https://www.python.org/downloads/).
-- aiohttp library: Install using pip (pip install aiohttp).
-- dhooks library: Install using pip (pip install dhooks).
+    <h2>Recommended Software</h2>
+    <p>To run UK's Group Finder smoothly, it is recommended to have the following software installed:</p>
+    <ul>
+        <li>Python 3.7 or higher: Install from the official Python website (<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>).</li>
+        <li>aiohttp library: Install using pip (<code>pip install aiohttp</code>).</li>
+        <li>dhooks library: Install using pip (<code>pip install dhooks</code>).</li>
+    </ul>
 
-## Usage
-1. Clone this repository to your local machine.
-2. Install the required libraries using pip:
-   ```bash
-   pip install aiohttp dhooks
-3. Set up a webhook URL to receive hit and error notifications. You can use services like Discord's Webhooks or create a custom webhook receiver.
-4. Open main.py in a text editor.
-5.    Replace "YOUR_WEBHOOK_URL_HERE" with your actual webhook URL.
-6.    Adjust the number of threads based on your system's capabilities and desired performance.
-7.    Run the script: python main.py
+    <h2>Usage</h2>
+    <ol>
+        <li>Clone this repository to your local machine.</li>
+        <li>Install the required libraries using pip:
+            <pre><code>pip install aiohttp dhooks</code></pre>
+        </li>
+        <li>Set up a webhook URL to receive hit and error notifications. You can use services like Discord's Webhooks or create a custom webhook receiver.</li>
+        <li>Open main.py in a text editor.</li>
+        <li>Replace "YOUR_WEBHOOK_URL_HERE" with your actual webhook URL.</li>
+        <li>Adjust the number of threads based on your system's capabilities and desired performance.</li>
+        <li>Run the script: <code>python main.py</code></li>
+    </ol>
 
-## Configuration
+    <h2>Configuration</h2>
+    <ul>
+        <li>Replace "YOUR_WEBHOOK_URL_HERE" in the script with your actual webhook URL.</li>
+        <li>Adjust the number of threads based on your system's capabilities and the desired performance.</li>
+    </ul>
 
-    Replace "YOUR_WEBHOOK_URL_HERE" in the script with your actual webhook URL.
-    Adjust the number of threads based on your system's capabilities and the desired performance.
+    <h2>License</h2>
+    <p>This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-## License
+    <h2>Disclaimer</h2>
+    <p>This script is provided as-is without any warranties. Use it responsibly and comply with Roblox's terms of service and API usage guidelines.</p>
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the LICENSE file for details.
-Disclaimer
+    <h2>Acknowledgments</h2>
+    <ul>
+        <li>The script uses the aiohttp library for asynchronous HTTP requests.</li>
+        <li>The dhooks library is used for webhook integration.</li>
+    </ul>
 
-This script is provided as-is without any warranties. Use it responsibly and comply with Roblox's terms of service and API usage guidelines.
-Acknowledgments
+    <h2>Support</h2>
+    <p>For any issues or questions, please open an issue on <a href="https://github.com/ukrblx/UK-s-Group-Finder">GitHub</a>!</p>
 
-    The script uses the aiohttp library for asynchronous HTTP requests.
-    The dhooks library is used for webhook integration.
-
-## Support
-
-For any issues or questions, please open an issue on GitHub!
-
-![Alt](https://repobeats.axiom.co/api/embed/10c0d14de26381cb9df957e95b3686387b20d334.svg "Repobeats analytics image")
-
-        </footer>
-    </div>
+    <img src="https://repobeats.axiom.co/api/embed/10c0d14de26381cb9df957e95b3686387b20d334.svg" alt="Repobeats analytics image">
 </body>
 
 </html>
