@@ -1,7 +1,6 @@
 # UK-s-Group-Finder
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE](LICENSE) file for details.
-# UK's Group Finder
 
 ## Description
 UK's Group Finder is a powerful Python script designed to efficiently discover active and unowned Roblox groups. Leveraging asynchronous requests and threading, it rapidly checks the status of groups on Roblox and sends notifications to a specified webhook upon finding hits.
